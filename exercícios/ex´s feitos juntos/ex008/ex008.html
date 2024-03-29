@@ -7,35 +7,17 @@
 </head>
 <body>
     <h1>Qual sua nacionalidade?</h1>
-
-    Digite qual seu país você mora: <input type="text" name="pais" id="pais">
-
+    Digite qual seu país você nasceu: <input type="text" name="pais" id="pais">
     <input type="button" value="Selecionar" onclick="resultado()">
-
+    <div id="voce"></div>
     <div id="res">
+    <script src="index.js"></script>
 
     
 
     </div>
     <script>
-         function resultado() {
-            let pais = 'Brasil'
-            
-            let p = document.querySelector('input#pais')
-
-            let res = document.querySelector('div#res')
-            
-            res.innerText = `<p>Vivendo em ${pais}`    
-
-        if (pais == 'Brasil') {
-            res.innerHTML = '<p>Você é <strong>Brasileiro!</strong></p>'
-        } else {
-            res.innerHTML = '<p>Você é <strong>Estrangeiro</strong></p>'
-        }
-
         
-
-    }
     </script>
 </body>
 </html>
