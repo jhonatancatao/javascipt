@@ -1,4 +1,5 @@
 let num = [4, 5, 8, 7, 9]
+num.push(1, 2, 3, 6)
 num.sort()
 
 //console.log(num)
